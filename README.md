@@ -1,30 +1,16 @@
-## 📄 Estrutura do projeto
+## 🖥️ Visual do projeto
 
-### index.php
+### Página inicial
+![Página inicial do Hotel Millane](docs/imagens/home.png)
 
-```php
-<?php
+### Ofertas especiais
+![Ofertas especiais](docs/imagens/ofertas.png)
 
-$page_title = 'Hotel Millane';
+### Quartos e suítes
+![Quartos e suítes](docs/imagens/quartos.png)
 
-require_once 'pages/partials/head.php';
-require_once 'pages/partials/nav.php';
+### Comodidades
+![Comodidades](docs/imagens/comodidades.png)
 
-require_once 'pages/home.php';
-
-require_once 'pages/partials/footer.php';
-
-?>
-```
-
-### nav.php
-
-```php
-<header>
-    <nav>
-        <a href="index.php">Início</a>
-        <a href="pages/cadastro-quarto.php">Cadastrar quarto</a>
-        <a href="pages/listagem-quarto.php">Acomodações</a>
-    </nav>
-</header>
-```
+### Rodapé
+![Rodapé](docs/imagens/footer.png)
